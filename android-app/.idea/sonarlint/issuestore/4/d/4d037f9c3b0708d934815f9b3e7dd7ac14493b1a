@@ -1,23 +1,23 @@
 
-M
-java:S1172#"+Remove this unused method parameter "view".(‚Ä€üÿÿÿÿ8 Ôùûá.
-H
-java:S1172a"+Remove this unused method parameter "view".(±œßƒ8Šºåûá.
-k	java:S100˜"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óóƒ”8Šºåûá.
-z	java:S116"YRename this field "DEVICE_ADDRESS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şĞğøÿÿÿÿ8Ì…ûúá.
-M
-java:S1172:"+Remove this unused method parameter "view".(İç‘µúÿÿÿÿ8áˆÌûá.
-M
-java:S1172G"+Remove this unused method parameter "view".(éÄ²Âûÿÿÿÿ8Šºåûá.
-p
-java:S2259y"NA "NullPointerException" could be thrown; "bluetoothAdapter" is nullable here.(Œöûÿÿÿÿ8Šºåûá.
+p	java:S116"TRename this field "PORT_UUID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì°şØ8Ì…ûúá.
 H
 java:S1172-"+Remove this unused method parameter "view".(÷şáí8à‰Éûá.
-i
-java:S2142€"FEither re-interrupt this method or rethrow the "InterruptedException".(²ı…¦ûÿÿÿÿ8Šºåûá.
-C
-java:S1170"!Make this final field static too.(şĞğøÿÿÿÿ8Ì…ûúá.
+p
+java:S2259y"NA "NullPointerException" could be thrown; "bluetoothAdapter" is nullable here.(Œöûÿÿÿÿ8Šºåûá.
+M
+java:S1172#"+Remove this unused method parameter "view".(‚Ä€üÿÿÿÿ8 Ôùûá.
+j	java:S100o"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğıÍ8Šºåûá.
+k	java:S100˜"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óóƒ”8Šºåûá.
 H
 java:S1172T"+Remove this unused method parameter "view".(®ö®Ş8æÓæûá.
-j	java:S100o"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğıÍ8Šºåûá.
-p	java:S116"TRename this field "PORT_UUID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì°şØ8Ì…ûúá.
+z	java:S116"YRename this field "DEVICE_ADDRESS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şĞğøÿÿÿÿ8Ì…ûúá.
+M
+java:S1172G"+Remove this unused method parameter "view".(éÄ²Âûÿÿÿÿ8Šºåûá.
+M
+java:S1172:"+Remove this unused method parameter "view".(İç‘µúÿÿÿÿ8áˆÌûá.
+C
+java:S1170"!Make this final field static too.(şĞğøÿÿÿÿ8Ì…ûúá.
+i
+java:S2142€"FEither re-interrupt this method or rethrow the "InterruptedException".(²ı…¦ûÿÿÿÿ8Šºåûá.
+H
+java:S1172a"+Remove this unused method parameter "view".(±œßƒ8Šºåûá.

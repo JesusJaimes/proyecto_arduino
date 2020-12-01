@@ -15,11 +15,12 @@ void setup()  {
 void loop()  { 
     analogWrite(derB, 0);  
     analogWrite(izqB, 0); 
-    delay (3000);
-    
-    analogWrite(derA, vel);  
+    delay (1000);
+
+    analogWrite(derA, 0);  
     analogWrite(izqA, vel); 
-    delay (5000);
+    delay (1000);
+    
    
     analogWrite(derA, vel); 
     analogWrite(izqA, 0); 
@@ -27,15 +28,15 @@ void loop()  {
 
     analogWrite(derB, vel);  
     analogWrite(izqB, vel); 
-    delay (3000); 
-    
-    analogWrite(derA, 0);  
+    delay (1000); 
+
+    analogWrite(derA, vel);  
     analogWrite(izqA, vel); 
     delay (1000);
-
+    
     analogWrite(derA, vel); 
     analogWrite(izqA, vel); 
-    delay (5000);
+    delay (1000);
      
     analogWrite(derA, 0); 
     analogWrite(izqA, 0);
