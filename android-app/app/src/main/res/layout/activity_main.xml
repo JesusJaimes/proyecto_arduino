@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/buttonAdelante"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/ic_baseline_arrow_upward"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.208"
+        android:onClick="moverAdelante"/>
+
+    <ImageButton
+        android:id="@+id/buttonIzquierda"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/ic_baseline_arrow_left"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.199"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.396"
+        android:onClick="moverIzquierda"/>
+
+    <ImageButton
+        android:id="@+id/buttonStop"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@color/colorAccent"
+        android:src="@drawable/ic_baseline_pause"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.396"
+        android:onClick="detener"/>
+
+    <ImageButton
+        android:id="@+id/buttonDerecha"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/ic_baseline_arrow_right"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.396"
+        android:onClick="moverDerecha"/>
+
+    <ImageButton
+        android:id="@+id/buttonReversa"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/ic_baseline_arrow_downward"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.583"
+        android:onClick="moverReversa"/>
+
+    <Button
+        android:id="@+id/buttonConectar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONECTAR A DISPOSITIVO BLUETOOTH"
+        android:textColor="#FFFFFF"
+        android:background="#00CCFF"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.802"
+        android:onClick="conectar"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
